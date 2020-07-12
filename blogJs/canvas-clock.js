@@ -265,7 +265,7 @@
         return offsetX;
     }
 
-    var canvas = document.getElementById("canvas");
+    var canvas = document.getElementById("particleClockCanvas");
     canvas.width=WINDOW_WIDTH;
     canvas.height=WINDOW_HEIGHT;
     context = canvas.getContext("2d");
